@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: varela;
+}
+
+@font-face {
+    font-family: 'varela';
+    src: url('./Font/VarelaRound-Regular.ttf');
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.holder{
+    /* border: 1px solid green; */
+    width: 80vw;
+    height: 80vh;
+    margin-top: 50px;
+    position: relative;
+}
+
+.heading{
+    /* border: 1px solid yellow; */
+    height: 9vh;
+    background: #6DAAE5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+
+.btn{
+    width: 7rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+}    
+
+.name1{
+    margin-left: 1.5rem;
+}
+
+.sidemenue{
+    /* border: 1px solid red; */
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    background: #6E9ECC;
+    overflow: auto;
+    color:white;
+    overflow-x: hidden;
+}
+
+.msg-holder{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.msg{
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px 4px 10px;
+    background: #DBEDFE;
+    max-width: 350px;
+}
+
+.sub-holder{
+    /* border: 1px solid red; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-holder1{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+
+.userHolder {
+    width: 4.8rem;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.left{
+    align-self: flex-start;
+}
+
+.center{
+    align-self: center;
+}
+
+.right{
+    align-self: flex-end; 
+}
+
+.sub-holder1:first-child{
+    margin-top: 2.5rem;
+}
+
+.name,.date{
+    margin: 0;
+    font-size: small;
+}
+
+.date{
+    margin-left: 4px;
+}
+
+.content{
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.holder2{
+    /* border: 1px solid violet; */
+    height: 60vh;
+    display: flex;
+}
+
+.room{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+}
+
+.roomName,.nameHolder{
+    margin-top: 10px;
+}
+.nameHolder{
+    /* border: 1px solid green; */
+    background: #206BB3;
+    padding: 7px;
+}
+.hold{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.users{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 16px;
+    
+}
+
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+}
+
+.userList{
+    /* border: 1px solid blue; */
+    height: fit-content;
+    width: 100%;
+}
+
+.n1{
+    /* border: 1px solid green; */
+    padding: .5rem;
+    padding-left: 0;
+}
+
+.input{
+    /* border: 1px solid green; */
+    position: absolute;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #6DAAE5;
+}
+
+.txt{
+    width: 80%;
+    height: 5vh;
+}
+
+.sendBtn{
+    height: 5vh;
+    width: 5vw;
+}
+
+input:focus{
+    outline: none;
+}

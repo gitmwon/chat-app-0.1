@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <script defer src="https://cdn.socket.io/4.7.2/socket.io.js"></script>
+    <script defer type="module" src="index.js"></script>
+    <div class="main">
+      <div class="holder">
+        <div class="heading">
+          <span class="name1">ChatApp</span>
+          <button id="leave" class="btn">Leave Room</button>
+        </div>
+
+        <div class="holder2">
+          <div class="sidemenue">
+            <div class="room">
+              <div class="hold">
+                <span class="roomName">Room Name:</span>
+                <span class="nameHolder"></span>
+              </div>
+
+              <div class="users">
+                <span class="userHolder"><img src="./img/users.png"><span class="n2">Users</span></span>
+
+                <div class="userList">
+                  <!-- <div class="username">
+                  <span class="n1">Rahan</span>
+                </div> -->
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="msg-holder">
+            <div class="sub-holder">
+
+              <!-- <div class="sub-holder1">
+                <div class="msg left">
+                  <span class="name">Rahan 31:42</span>
+                  <div class="content">hellooo</div>
+                </div>
+              </div> -->
+
+            </div>
+          </div>
+        </div>
+
+        <div class="input">
+          <input type="text" class="txt" />
+          <button class="sendBtn">Send</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
