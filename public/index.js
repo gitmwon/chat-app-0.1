@@ -1,4 +1,4 @@
-const socket = io("https://chat-app-okog.onrender.com/");
+const socket = io(window.location.origin);
 
 let msg = document.querySelector(".msg-holder");
 
