@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8080");
+const socket = io(window.location.origin);
 
 let msg = document.querySelector(".msg-holder");
 
