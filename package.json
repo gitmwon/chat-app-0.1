@@ -9,6 +9,7 @@
   "author": "Rahan judes michael",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^3.0.1",
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.7.2"
   }
