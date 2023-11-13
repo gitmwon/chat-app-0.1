@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8080");
+const socket = io(window.location.origin);
 
 const btn = document.getElementById('submit');
 const btn2 = document.getElementById('submit2');
